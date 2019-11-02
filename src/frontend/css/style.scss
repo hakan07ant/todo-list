@@ -1,0 +1,11 @@
+@import './diger/degiskenler';
+@import './diger/sifirlama';
+@import './bootstrap.css';
+
+@import './sayfa/todoEkle';
+@import './sayfa/todoListe';
+
+#container{
+	width: 400px;
+	margin: 0 auto;
+}

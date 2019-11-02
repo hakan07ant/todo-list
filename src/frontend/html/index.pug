@@ -1,0 +1,9 @@
+doctype html
+html(lang='en')
+  head
+    title #{defaults.activePageTitle}
+    link(rel='stylesheet', href='/App.css')
+  body
+    #root
+    script!= 'window.defaults = ' + JSON.stringify(defaults) + ';'
+    script(src='/App.js')

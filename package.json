@@ -1,0 +1,45 @@
+{
+  "name": "Interyum",
+  "version": "0.5.2",
+  "description": "Interyum Control Panel",
+  "license": "MIT",
+  "author": {
+    "name": "Bayram",
+    "email": "info@interyum.com",
+    "url": "https://interyum.com"
+  },
+  "scripts": {
+    "firstRun": "node ./src/backend/firstRun.js",
+    "server": "nodemon ./src/backend/server.js",
+    "start": "parcel ./src/frontend/js/App.jsx --out-dir ./dist --public-url / --port 1167 --hmr-port 1150",
+    "build": "parcel build ./src/frontend/js/App.jsx --out-dir ./dist --public-url / --no-source-maps",
+    "rebuild": "npm rebuild"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "axios": "^0.19.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-root-import": "^6.4.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^4.3.1",
+    "connect-mongo": "^3.1.0",
+    "cors": "^2.8.5",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "helmet": "^3.21.1",
+    "mongoose": "^5.7.6",
+    "morgan": "^1.9.1",
+    "parcel-bundler": "1.11.0",
+    "pug": "^2.0.4",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-notifications-component": "^2.1.0",
+    "react-router-dom": "^5.1.2",
+    "rfv": "^0.0.33",
+    "sass": "^1.23.0",
+    "standard": "^14.3.1"
+  }
+}
