@@ -5,7 +5,6 @@ const todoSil = async (req, res) => {
     success: false,
     data: {}
   }
-  console.log(req.body.params.id)
   const id = req.body.params.id
   const deleteTodo = await todoModels.deleteOne({ _id: id })
   if (deleteTodo) {
@@ -14,7 +13,6 @@ const todoSil = async (req, res) => {
   } else {
     result.success = false
   }
-  console.log(result)
   res.json(result)
 }
 
