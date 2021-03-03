@@ -33,7 +33,7 @@
     "mongoose": "^5.7.6",
     "morgan": "^1.9.1",
     "parcel-bundler": "1.11.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-notifications-component": "^2.1.0",
